@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:is(ul, li){
+    list-style: none;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/bg/walma.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
