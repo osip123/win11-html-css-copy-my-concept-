@@ -98,3 +98,58 @@ html{
 .status__containner span, pre{
     color: white;
 }
+
+.mat__icon{
+    font-size: 180px;
+}
+
+.mat__icon:hover{
+    opacity: .7;
+    cursor: none;   
+}
+
+.min__sp__{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.status__containner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dock{
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dock img{
+    width: 42px;
+}
+
+.dock img:hover{
+    opacity: .7;
+}
+
+.top__bar{
+    border-radius: 12px;
+    width: 700px;
+    background-color: transparent;
+    height: 30px;
+    transition: .3s;
+}
+
+.top__bar:hover{
+    height: 100px;
+    background-color: transparent;
+    backdrop-filter: blur(98px);
+}
+
+.top__bar.top__bar:focus{
+    border: 1px solid white;
+}
