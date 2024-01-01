@@ -21,3 +21,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bar{
+    width: 100vw;
+    padding: 10px;
+    height: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(230px);
+}
